@@ -9,10 +9,18 @@ This is the first and only *individual* (as opposed to *team*) this semester.
 
 Term: Spring 2020
 
-+ Projec title: Lorem ipsum dolor sit amet
-+ This project is conducted by [your name]
++ Projec title: Data Story: the Collision of Lyrics and Emotions
++ This project is conducted by [ Saier Gong (sg3772) ]
 
-+ Project summary: [a short summary] Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
++ Project summary: [a short summary] 
+
+Music is an improtant part in our daily life. In this project, I apply data cleaning and text mining methods to explore what type of sentences certain artists would like to use in their songs, and what kind of emotions they expressed. Also, based on the lyrics within the Rock genre, we identify several topics that the representative artists in this genre cover most in their songs.
+
+The results show that the words "i", "love" and "you" appear in many songs and different artists preferred different length of sentences in the lyrics. In Rock genre, the songs usually cover a wide range of topics and have stronger emotions, that is why many people love to write Rock songs and many people enjoy listening to rock songs.
+
+
+
+
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
@@ -26,3 +34,4 @@ proj/
 ```
 
 Please see each subfolder for a README file.
+
