@@ -7,7 +7,7 @@ output:
     latex_engine: xelatex
 ---
 
-># **What words certain artists enjoyed to use in their songs? What are the differences among selected artists? Why Rock music is so popular?**
+># **What words did certain artists enjoyed to use in their songs? What are the differences among selected artists? Why is Rock music so popular?**
 ><center>By Saier Gong</center>
 
 
@@ -150,7 +150,7 @@ new_lyric<-lyric %>%
 
 
 
-## Part 2. Which words they would love to use in period 2006-2008?
+## Part 2. Which words would they love to use in period 2006-2008?
 Based on the data we choose in Part 1, to answer this question, we need to choose some artists that are most representative of that period (Year 2006-2008).
 
 Therefore, we make a list of the **3 artists** who had the most songs in that period, and find out the frequencies they used the words in the following list in their songs during that period.
@@ -244,7 +244,7 @@ beeswarm(word.count/20~artist,
 
 ```
 
-From the plot, we can see that dolly-parton preferred using shorter sentences compared with eddy and barbra. But they three all used shorter sentences more the longer sentences.
+From the plot, we can see that dolly-parton preferred using shorter sentences compared with eddy and barbra. But they three all used shorter sentences more than longer sentences.
 Maybe because shorter sentences are easy to remember and can fit the rhythm they are good at perfectly.
 What's more, barbra-streisand had more sentences with length less than 5, while the other 2 artists between 5 and 10.
 
@@ -255,7 +255,7 @@ I like Rock!
 
 ![](../figs/rock.jpg)
 
-And as we have seen before, much more songs belong to **genre Rock** than other genres, therefore, it is a good idea to analysis the data and find out **why many artists love Rock**.
+And as we have seen before, much more songs belong to **genre Rock** than other genres, therefore, it is a good idea to analyze the data and find out **why many artists love Rock**.
 
 ```{r,message=FALSE,warning=FALSE,fig.width = 10, fig.height = 8}
 #######################filter genre Rock from original lyric containing all years
@@ -475,7 +475,7 @@ From these plots, we can see:
 
 1. elton-john had more joy, anger and fear;
 2. bob-dylan had more joy or anticipation;
-3. elvis-costello has more fear;
+3. elvis-costello had more fear;
 4. david-bowie had more disgust;
 5. bruce-springsteen had more joy and anger;
 6. eric-clapton had more anger and joy;
@@ -640,7 +640,7 @@ From this plot, we can conclude that:
 
 ![](../figs/byebye.jpg)
 
-**In short**, the artists usually expressed their feeling about love in their songs no matter nagetive or positive feelings in love. Though in the same era, the length of sentences in different artists' songs were different, maybe due to different music genres or different characters. Nevertheless, in general, shorter sentences were more popular. When it comes to Rock music, people love Rock music because it can contain a wide range of topics and express stronge emotions. Rock lovers can show their feelings through this type of music easily and people can find their own stories by listening to the songs. As far as the rock songs I have listened to, the rhythm is usually very fast so that it can make happy people happier and sad people more sad.
+**In short**, the artists usually expressed their feeling about love in their songs no matter nagetive or positive feelings in love. Though in the same era, the length of sentences in different artists' songs were different, maybe due to different music genres or different characters. Nevertheless, in general, shorter sentences were more popular. When it comes to Rock music, people love Rock music because it can contain a wide range of topics and express strong emotions. Rock lovers can show their feelings through this type of music easily and people can find their own stories by listening to the songs. As far as the rock songs I have listened to, the rhythms is usually very fast so that it can make happy people happier and sad people more sad.
 
 
 
